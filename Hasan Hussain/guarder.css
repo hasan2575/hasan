@@ -1,0 +1,331 @@
+img{
+height: 500px;
+ width: 100%;
+}
+.pic span h1{
+    margin-top: -480px;
+    /* display: inline-block; */
+    position: absolute;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.pic>ul{
+    float: right;
+    margin-top: -480px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 50px;
+    position: relative;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+ul li{
+    height: 50px;
+    width:auto;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    /* background-color: aqua; */
+}
+ ul li:hover{
+    background-color: rgb(65, 62, 62);
+    color: white;
+    height: 50px;
+    transition:0.8s;
+    
+}
+.pic h2{
+ margin-top: -300px;
+ margin-left: 40px;
+ font-size: 50px;
+ color: white;
+}
+.pic h3{
+    margin-top: -40px;
+    margin-left: 40px;
+    font-size: 50px;
+    color: yellow;
+   }
+   .pic p{
+    color: white;
+    margin-left: 40px;
+    margin-top: -10px;
+
+   }
+.pic button{
+    margin-left: 40px;
+    height: 50px;
+    width: 180px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.pic button +button{
+    background-color: yellow;
+    color: white;
+}
+
+.pic button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+    
+} .pic button +button:hover{
+    background-color: black;
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+.pic1 img{
+ height: 400px;
+  width: 500px;
+  margin: 100px 0  0px 100px;
+  
+}
+.content{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    float: right;
+    position: relative;
+    margin-top: -370px;
+    margin-right: 280px;
+    padding: 20px;
+}
+.contant h1{
+    margin-top: -50px;
+}
+.content >p{
+    font-weight: lighter;
+    font-style: unset;
+   
+}
+.content button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    background-color: yellow;
+    color: white;
+    border: 0;
+}
+.content button:hover{
+    background-color: white;
+    color: yellow;
+    border: 1px solid yellow;
+}
+.main{
+    background-color: black;
+    height: 600px;
+    width: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.main h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.card{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    height: 400px;
+    width: 350px;
+    background-color:white;
+    /* color: white;     */
+    /* display: flex; */
+}
+.card1 img{
+    height: 100px;
+    width: 100px;
+margin-top: 50px;
+margin-left: 120px;
+    /* display: flex;
+    align-items: center; */
+    
+}
+.card1 h1{
+    color: black;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card1 p{
+    margin-left: 10px;
+}
+.card1 button{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: yellow;
+    border: none;
+    color: white;
+}
+.card1 button:hover{
+    background-color: black;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.card2{
+    height: 400px;
+    width: 350px;
+    background-color:white;
+}
+.card2 img{
+    height: 100px;
+    width: 100px;
+margin-top: 50px;
+margin-left: 120px;}
+.card2 h1{
+    color: black;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card2 p{
+    margin-left: 10px;
+}
+.card2 button{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: yellow;
+    border: none;
+    color: white;
+}
+.card2 button:hover{
+    background-color: black;
+    color: yellow;
+    border: 1px solid yellow;
+
+}
+
+.card3{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+.card3 img{
+    height: 100px;
+    width: 100px;
+margin-top: 50px;
+margin-left: 120px;
+}
+.card3 h1{
+    color: black;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card3 p{
+    margin-left: 10px;
+}
+.card3 button{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: yellow;
+    border: none;
+    color: white;
+}
+.card3 button:hover{
+    background-color: black;
+    color: yellow;
+    border: 1px solid yellow;
+}
+.client{
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.client h1{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.client img{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+.touch{
+    background-image: url(../images/contact-bg.jpg);
+    /* background-color: aqua; */
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.touch input{
+    height: 30px;
+    width: 500px;
+    margin-top: 30px;
+   
+}
+ .touch input:nth-child(5){
+    
+    height: 120px;
+}
+.touch button{
+    margin-top: 50px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(238, 238, 73);
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.touch button:hover{
+    border: 1px solid yellow;
+    background: none;
+    color: yellow;
+}
+.g{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.guards h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+.guards img{
+    height: 400px;
+    width: 300px;
+    gap: 50px;
+    margin-left: 110px;
+    
+}
